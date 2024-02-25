@@ -13,7 +13,7 @@ import projects from '@/data/projects';
 
 const Projects = () => {
   return (
-    <Container title="Projects | Greg Ogun">
+    <Container title="Projects | Akhil Chilumuru">
       <ContentWrapper>
         <Intro />
       </ContentWrapper>

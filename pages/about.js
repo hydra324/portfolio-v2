@@ -22,7 +22,7 @@ import { useColorModeValue } from '@chakra-ui/color-mode';
 
 const About = () => {
   return (
-    <Container title="About | Greg Ogun">
+    <Container title="About | Akhil Chilumuru">
       <ContentWrapper>
         <Intro />
         <Skills />
@@ -43,69 +43,54 @@ const Intro = () => {
       </Heading>
       <ChakraContainer maxW={{ base: '20rem', sm: '30rem', md: '40rem' }} p={0}>
         <Text mb="2rem">
-          Hey there! I’m Greg, a self-taught developer fascinated by the
-          prospect of using technology to aid in creating a fairer, more
-          inclusive world.
+          Hey there! I’m Akhil, a passionate developer driven by the belief that technology
+          holds the key to fostering a more equitable and inclusive society.
         </Text>
         <Text mb="2rem">
-          I like to spend my time designing and building solutions, engaging
-          with the community, as well as pushing myself to learn more through
-          pair programming and group projects.
+        Personal development fuels my mind, while organization keeps me on track. And when it's time to unwind, video games
+        provide the perfect escape. Think of me as the the builder, and the friend who's always learning to build better things.
         </Text>
         <Text mb="6.5rem">
-          I studied Music Technology at Bournemouth University from 2015-2018
-          and have since been working part-time jobs in retail whilst I work on
-          various music projects and more recently developed a passion for
-          writing code.
+        Starting with the foundations at IIT Madras (Electrical Engineering, 2014-2018), 
+        I transitioned to software development at Barclays Bank, where I spent four years building my skills. 
+        But the pull of exploration led me back to academia, pursuing Computer Science at Texas A&M University (2022-2024). 
+        This experience sparked a passion for deep learning, which I'm currently exploring in various backend projects.
         </Text>
         <Heading mb="0.5rem" as="h3" variant="h3">
           What I’ve been up to
         </Heading>
         <Text mb="2rem">
-          I've been recently focused on building React applications, diving
-          deeper into React itself as well as libraries and tools surrounding
-          it. I've also been learning lots too-like how to test my code
-          effectively, optimizing performance and I've also started recently
-          learning Typescript and already feeling the benefits of type safety
-          and all the other great things it brings!{' '}
+        My current focus is on building deep learning applications, pushing the boundaries of this powerful technology. 
+        I'm also passionate about designing scalable systems that can handle growing complexity efficiently. Beyond
+        development, I actively facilitate fellow researchers by guiding them on utilizing high-performance computing resources.
         </Text>
         <Text mb="2rem">
-          I love to learn and build in public, which I’ve taken to the next
-          level through live coding on <Link href={twitch.href}>Twitch</Link>{' '}
-          and <Link href={youtube.href}>Youtube</Link>. I'm hoping to take this
-          further by creating more content such as tutorials and courses.
+          Right now, I'm working on a project that uses deep learning to help authors create children's books by generating
+          illustrations from text. 
         </Text>
         <Text mb="6.5rem">
-          I’ve also recently become a Facilitator at{' '}
-          <Link href="https://chingu.io/">Chingu</Link> where I review project
-          submissions and support individuals and teams. Participating in group
-          projects and working with others proved really beneficial for me, so
-          I'm super grateful I have the opportunity to give back to an amazing
-          community!
+          I'm also developing a scalable backend for serving the models using Redis and FastAPI. I'm also playing
+          around with google's <em>Gemma 2B model</em> to see how it can help in generating illustrations by tuning prompts for <em>Diffusion</em> models.
         </Text>
         <Heading mb="0.5rem" as="h3" variant="h3">
           Interests
         </Heading>
         <Text mb="2rem">
-          I’m currently interested in building and supporting the community
-          around web development, whether that be through my participation in
-          Chingu, live streams, or <Link href={discord.href}>my discord</Link>.
+          I’m currently interested in learning <em>LLMs</em> and building applications around LLMs. I'm also interested in
+          distributed systems and how they can be used to build scalable and efficient systems.
         </Text>
         <Text mb="2rem">
-          I’m also really into <em>Design Systems</em> and{' '}
-          <em>Component Driven User Interfaces</em> and I love to explore the
+          I’m also really into <em>System design</em> and{' '} I love to explore the
           tools and techniques that help to create more scalable and
-          maintainable UI’s.
+          maintainable software.
         </Text>
         <Text mb="2rem">
           When I'm not coding (or writing or reading about it) you'll typically
-          find me engaging with another creative or engaging activity such as
-          writing music, 3D motion design, gaming, curating playlists, or
-          occasionally getting lost in a Netflix series!
+          find me reading <em>Crucial Conversations</em> by <em>Grenny et al.</em> and <em>Atomic Habits</em> by <em>James Clear</em>.
         </Text>
         <Text>
           Although I love to keep myself busy with activities, I also make sure
-          to set aside time to spend with family, going for walks and runs, as
+          to set aside time to go for walks and runs, as
           well as taking some time out for self-reflection when I can.
         </Text>
       </ChakraContainer>
@@ -127,10 +112,8 @@ const Skills = () => {
         p={0}
       >
         <Text mb="8rem">
-          One of my favourite things since I starting to learn to code has
-          discovering all of the amazing tools and abstractions developers have
-          created to make theirs and other developers' lives easier. Here are
-          some of the tools I use most frequently.
+        As a developer, I'm constantly on the lookout for tools that streamline my workflow and make my life easier.
+        Here are a few of my current favorites.
         </Text>
       </ChakraContainer>
       <Grid
@@ -204,7 +187,7 @@ const Contact = () => {
             hey then feel free to fill out my contact form and I'll endeavour to
             get back to you as soon as I can.
           </Text>
-          <Text>
+          {/* <Text>
             Or if you would prefer to, you can also reach me on{' '}
             <Link color={themed} href={twitter.href}>
               twitter
@@ -214,7 +197,7 @@ const Contact = () => {
               discord
             </Link>
             .
-          </Text>
+          </Text> */}
         </ChakraContainer>
         <ContactForm />
       </Flex>

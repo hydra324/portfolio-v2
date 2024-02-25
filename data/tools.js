@@ -5,17 +5,66 @@ import {
   SiSass,
   SiJavascript,
   SiReact,
-  SiGraphql,
-  SiNodeDotJs,
-  SiNextDotJs,
-  SiElectron,
-  SiFigma,
   SiStorybook,
   SiAdobe,
   SiSocketDotIo,
-  SiTypescript
+  SiTypescript,
+  SiPytorch,
+  SiTensorflow,
+  SiDocker,
+  SiPython,
+  SiFastapi,
+  SiPandas,
+  SiMongodb,
+  SiAngularjs,
+  SiDjango,
+  SiPostgresql,
+  SiFlask,
+  SiPlotly
 } from 'react-icons/si';
 import { v4 as uuidv4 } from 'uuid';
+
+export const python = {
+  name: 'Python',
+  icon: SiPython,
+  color: '#3776AB',
+  id: uuidv4()
+}
+
+export const fastapi = {
+  name: 'FastAPI',
+  icon: SiFastapi,
+  color: '#009688',
+  id: uuidv4()
+}
+
+export const pytorch = {
+  name: 'PyTorch',
+  icon: SiPytorch,
+  color: '#EE4C2C',
+  id: uuidv4()
+}
+
+export const tensorflow = {
+  name: 'TensorFlow',
+  icon: SiTensorflow,
+  color: '#FF6F00',
+  id: uuidv4()
+}
+
+export const pandas = {
+  name: 'Pandas',
+  icon: SiPandas,
+  color: '#150458',
+  id: uuidv4()
+}
+
+export const docker = {
+  name: 'Docker',
+  icon: SiDocker,
+  color: '#2496ED',
+  id: uuidv4()
+}
 
 export const html5 = {
   name: 'HTML5',
@@ -38,45 +87,10 @@ export const js = {
   id: uuidv4()
 };
 
-export const typescript = {
-  name: 'Typescript',
-  icon: SiTypescript,
-  color: '#3178C6',
-  id: uuidv4()
-};
-
 export const react = {
   name: 'React',
   icon: SiReact,
   color: '#61DAFB',
-  id: uuidv4()
-};
-
-export const nodejs = {
-  name: 'Node.js',
-  icon: SiNodeDotJs,
-  color: '#339933',
-  id: uuidv4()
-};
-
-export const nextjs = {
-  name: 'Next.js',
-  icon: SiNextDotJs,
-  color: null,
-  id: uuidv4()
-};
-
-export const electron = {
-  name: 'Electron',
-  icon: SiElectron,
-  color: '#47848F',
-  id: uuidv4()
-};
-
-export const figma = {
-  name: 'Figma',
-  icon: SiFigma,
-  color: '#F24E1E',
   id: uuidv4()
 };
 
@@ -88,30 +102,74 @@ export const chakra = {
   id: uuidv4()
 };
 
-export const storybook = {
-  name: 'Storybook',
-  icon: SiStorybook,
-  color: '#FF4785',
+export const mongodb = {
+  name: 'MongoDB',
+  icon: SiMongodb,
+  color: '#47A248',
   id: uuidv4()
 };
 
-export const adobe = {
-  name: 'Adobe',
-  icon: SiAdobe,
-  color: '#FF0000',
+export const angular = {
+  name: 'Angular',
+  icon: SiAngularjs,
+  color: '#DD0031',
   id: uuidv4()
 };
 
-export const socketIO = {
-  name: 'Socket IO',
-  icon: SiSocketDotIo,
-  color: null,
+export const django = {
+  name: 'Django',
+  icon: SiDjango,
+  color: '#092E20',
   id: uuidv4()
 };
 
-export const sass = {
-  name: 'Sass',
-  icon: SiSass,
-  color: '#CC6699',
+export const postgres = {
+  name: 'PostgreSQL',
+  icon: SiPostgresql,
+  color: '#336791',
   id: uuidv4()
 };
+
+export const flask = {
+  name: 'Flask',
+  icon: SiFlask,
+  color: '#000000',
+  id: uuidv4()
+};
+
+export const plotly = {
+  name: 'Plotly',
+  icon: SiPlotly,
+  color: '#3F4F75',
+  id: uuidv4()
+};
+
+
+
+// export const storybook = {
+//   name: 'Storybook',
+//   icon: SiStorybook,
+//   color: '#FF4785',
+//   id: uuidv4()
+// };
+
+// export const adobe = {
+//   name: 'Adobe',
+//   icon: SiAdobe,
+//   color: '#FF0000',
+//   id: uuidv4()
+// };
+
+// export const socketIO = {
+//   name: 'Socket IO',
+//   icon: SiSocketDotIo,
+//   color: null,
+//   id: uuidv4()
+// };
+
+// export const sass = {
+//   name: 'Sass',
+//   icon: SiSass,
+//   color: '#CC6699',
+//   id: uuidv4()
+// };

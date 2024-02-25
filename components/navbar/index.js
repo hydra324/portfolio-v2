@@ -30,7 +30,7 @@ export const Navbar = ({ isOpen, toggleIsOpen }) => {
           <Item variant="noStyle" href="/projects">
             Projects
           </Item>
-          <Item isExternal variant="noStyle" href="/gregogun-cv-2021.pdf">
+          <Item isExternal variant="noStyle" href="/Akhil_Chilumuru_Resume.pdf">
             CV
           </Item>
         </Flex>
@@ -72,7 +72,7 @@ export const MobileNavMenu = () => {
           Blog
         </Item>
       </VStack>
-      <VStack p={4} w="100%" my={8} spacing={8} as="ul">
+      {/* <VStack p={4} w="100%" my={8} spacing={8} as="ul">
         <Item variant="large" href="/newsletter">
           Newsletter
         </Item>
@@ -82,7 +82,7 @@ export const MobileNavMenu = () => {
         <Item variant="large" href="/uses">
           Uses
         </Item>
-      </VStack>
+      </VStack> */}
     </VStack>
   );
 };

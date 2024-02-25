@@ -18,14 +18,14 @@ export const Footer = () => {
       as="footer"
     >
       {isLarge ? <Full /> : <Condensed />}
-      <Link
+      {/* <Link
         href={`${github.href}/portfolio-v2`}
         isExternal
         variant="noStyle"
         align="center"
       >
         © Designed and coded by Greg Ogun
-      </Link>
+      </Link> */}
     </VStack>
   );
 };
@@ -45,7 +45,7 @@ const Condensed = () => {
         href={linkedin.href}
         name={linkedin.name}
       />
-      <SocialLink
+      {/* <SocialLink
         color={twitter.color}
         icon={twitter.icon}
         href={twitter.href}
@@ -62,7 +62,7 @@ const Condensed = () => {
         icon={youtube.icon}
         href={youtube.href}
         name={youtube.name}
-      />
+      /> */}
     </HStack>
   );
 };
@@ -82,7 +82,7 @@ const MainRoutes = () => {
       <NavLink href="/">Home</NavLink>
       <NavLink href="/about">About</NavLink>
       <NavLink href="/projects">Projects</NavLink>
-      <NavLink href="/gregogun-cv-2021.pdf">CV</NavLink>
+      <NavLink href="/Akhil_Chilumuru_Resume.pdf">CV</NavLink>
     </VStack>
   );
 };
@@ -116,7 +116,7 @@ const Socials = () => {
       >
         LinkedIn
       </SocialLink>
-      <SocialLink
+      {/* <SocialLink
         color={twitter.color}
         icon={twitter.icon}
         href={twitter.href}
@@ -139,7 +139,7 @@ const Socials = () => {
         name={youtube.name}
       >
         Youtube
-      </SocialLink>
+      </SocialLink> */}
     </VStack>
   );
 };

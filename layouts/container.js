@@ -39,10 +39,10 @@ const Container = ({ children, ...customMeta }) => {
 
 const Seo = ({ ...customMeta }) => {
   const meta = {
-    title: 'Greg Ogun',
+    title: 'Akhil Chilumuru',
     description:
-      'Self-taught developer with a focus on designing and building scalable, maintainable and accessible solutions on the web.',
-    image: 'https://gregogun.com/static/images/banner.png',
+      'Self-taught developer with a focus on building scalable solutions with AI.',
+    image: '',
     type: 'website',
     ...customMeta
   };

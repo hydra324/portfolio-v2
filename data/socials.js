@@ -9,14 +9,14 @@ import {
 
 export const github = {
   icon: SiGithub,
-  href: 'https://github.com/gregogun',
+  href: 'https://github.com/hydra324',
   name: 'github',
   color: null
 };
 
 export const linkedin = {
   icon: SiLinkedin,
-  href: 'https://www.linkedin.com/in/greg-ogun/',
+  href: 'https://www.linkedin.com/in/akhil-chilumuru/',
   name: 'linkedin',
   color: '#0A66C2'
 };
